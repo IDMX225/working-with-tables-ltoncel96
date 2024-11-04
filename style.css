@@ -1,3 +1,64 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 1px solid yellow;
+  border-style: dashed;
+  margin: 1em;
+  padding: 1em;
+  color:#eeff00;
+}
+
+th {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tr{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.demo {
+  border:3px solid #2b2b2b;
+  border-collapse:separate;
+  padding:10px;
+}
+.demo th {
+  padding:10px;
+  background:#b4c1ff;
+}
+.demo td {
+  border:1px solid #C0C0C0;
+  text-align:center;
+  padding:10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 1px solid yellow;
+  border-style: dashed;
+  padding:10px;
+  color:#eeff00;
+}
+
+th {
+  background-color: #4CAF50;
+  color: rgb(55, 0, 255);
+}
+
+tr:nth-child(even){
+  background-color: #c5c5c5;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
